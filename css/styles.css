@@ -1,0 +1,230 @@
+:root {
+	--primary-font-color: #212121;
+	--secondary-font-color: #757575;
+	--white-font-color: #ffffff;
+	--axent-colour: #2196f3;
+	--primary-font: "Roboto", sans-serif;
+	--normal-font: 400;
+	--medium-font: 500;
+	--bold-font: 700;
+}
+body {
+	background-color: #ffffff;
+	font-family: var(--primary-font);
+}
+
+.list {
+	list-style: none;
+}
+.link {
+	text-decoration: none;
+}
+
+/* header */
+
+.logo {
+	font-family: 'Raleway', sans-serif;
+	font-weight: var(--bold-font);
+	font-size: 26px;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
+	color: var(--axent-colour);
+	text-decoration: none;
+}
+.part-logo {
+	color: #000000;
+}
+.logo:focus {
+	text-decoration: none;
+}
+.menu-list,
+.contacts-list {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	font-weight: var(--medium-font);
+}
+.menu-link {
+	color: var(--primary-font-color);
+}
+.contacts-link {
+	color: var(--secondary-font-color);
+}
+
+.menu-link:hover,
+.menu-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+	color: var(--axent-colour);
+}
+.menu-list .menu-link.current {
+	color: var(--axent-colour);
+}
+.contacts-list {
+	font-weight: var(--medium-font);
+	list-style: none;
+}
+
+/* ===hero===  */
+
+.hero {
+	background-color: #2f303a;
+}
+
+.hero-title {
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.4;
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
+	color: var(--white-font-color);
+}
+
+.hero-button {
+	font-weight: var(--bold-font);
+	font-size: 16px;
+	line-height: 1.88;
+	letter-spacing: 0.06em;
+	background-color: var(--axent-colour);
+	color: var(--white-font-color);
+	cursor: pointer;
+	font-family: inherit;
+}
+
+.hero-button:focus,
+.hero-button:hover {
+	background-color: #188ce8;
+	color: var(--white-font-color);
+}
+
+/* ===benefits===== */
+
+.benefits-title {
+	font-weight: var(--bold-font);
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--primary-font-color);
+}
+.text {
+	font-weight: var(--normal-font);
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+	color: var(--secondary-font-color);
+}
+/* ===duties=== */
+
+.duties-title {
+	font-weight: var(--bold-font);
+	font-size: 36px;
+	line-height: 1.17;
+	letter-spacing: 0.03em;
+	color: var(--primary-font-color);
+}
+
+/* ===team=== */
+.team {
+	background-color: #f5f4fa;
+}
+.team-title {
+	font-weight: var(--bold-font);
+	font-size: 36px;
+	line-height: 1.17;
+	letter-spacing: 0.03em;
+	color: var(--primary-font-color);
+}
+
+.list-workers > .list-item {
+	background-color: #ffffff;
+}
+.workers-name {
+	font-weight: var(--medium-font);
+	font-size: 16px;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
+}
+.position {
+	font-weight: var(--normal-font);
+	font-size: 16px;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
+	color: var(--secondary-font-color);
+}
+/* footer */
+.footer {
+	background-color: #2f303a;
+}
+.footer-logo {
+	color: var(--axent-colour);
+}
+.part-logo-footer {
+	color: var(--white-font-color);
+}
+.address {
+	font-style: normal;
+}
+.address-item {
+	font-weight: var(--normal-font);
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+	color: var(--white-font-color);
+	text-decoration: none;
+}
+.email-item,
+.tel-item {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+	color: var(--secondary-font-color);
+	text-decoration: none;
+}
+.address-item:hover,
+.address-item:focus,
+.email-item:hover,
+.email-item:focus,
+.tel-item:hover,
+.tel-item:focus {
+	color: var(--axent-colour);
+}
+
+/* ===PORTFOLIO=== */
+.portfolio {
+	background-color: #ffffff;
+}
+
+.button-item {
+	font-weight: var(--medium-font);
+	font-size: 16px;
+	line-height: 1.63;
+	letter-spacing: 0.03em;
+	background-color: #f5f4fa;
+	color: var(--primary-font-color);
+	cursor: pointer;
+	font-family: inherit;
+}
+.button-item:hover,
+.button-item:focus,
+.button-item:active {
+	background-color: var(--axent-colour);
+	color: var(--white-font-color);
+}
+
+.project-title {
+	font-weight: var(--bold-font);
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+	color: var(--primary-font-color);
+}
+.project-type {
+	font-weight: var(--normal-font);
+	font-size: 16px;
+	line-height: 1.87;
+	letter-spacing: 0.03em;
+	color: var(--secondary-font-color);
+}
